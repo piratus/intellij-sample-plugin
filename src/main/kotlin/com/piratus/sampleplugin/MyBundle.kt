@@ -1,4 +1,4 @@
-package com.github.piratus.intellijsampleplugin
+package com.piratus.sampleplugin
 
 import com.intellij.DynamicBundle
 import org.jetbrains.annotations.NonNls

@@ -1,4 +1,4 @@
-package com.github.piratus.intellijsampleplugin
+package com.piratus.sampleplugin
 
 import com.intellij.ide.highlighter.XmlFileType
 import com.intellij.psi.xml.XmlFile

@@ -1,1 +1,1 @@
-rootProject.name = "intellij-sample-plugin"
+rootProject.name = "My Sample"

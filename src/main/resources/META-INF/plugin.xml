@@ -1,18 +1,8 @@
 <!-- Plugin Configuration File. Read more: https://plugins.jetbrains.com/docs/intellij/plugin-configuration-file.html -->
 <idea-plugin>
-    <id>com.github.piratus.intellijsampleplugin</id>
-    <name>intellij-sample-plugin</name>
+    <id>com.piratus.sampleplugin</id>
+    <name>My Sample</name>
     <vendor>piratus</vendor>
 
     <depends>com.intellij.modules.platform</depends>
-
-    <extensions defaultExtensionNs="com.intellij">
-        <applicationService serviceImplementation="com.github.piratus.intellijsampleplugin.services.MyApplicationService"/>
-        <projectService serviceImplementation="com.github.piratus.intellijsampleplugin.services.MyProjectService"/>
-    </extensions>
-
-    <applicationListeners>
-        <listener class="com.github.piratus.intellijsampleplugin.listeners.MyProjectManagerListener"
-                  topic="com.intellij.openapi.project.ProjectManagerListener"/>
-    </applicationListeners>
 </idea-plugin>
